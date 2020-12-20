@@ -5,6 +5,12 @@ import account.domain.AccountId;
 public class InMemoryAccountId extends AccountId<Long> {
     private long id;
 
+    public InMemoryAccountId() { }
+
+    public InMemoryAccountId(long id) {
+        this.id = id;
+    }
+
     @Override
     public void setId(Long id) {
         this.id = id;

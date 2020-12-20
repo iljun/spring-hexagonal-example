@@ -1,4 +1,5 @@
 rootProject.name = 'hexagonal-example'
 include 'domain'
 include 'in-memory-adapter'
+include 'rest-adapter'
 
